@@ -6,33 +6,47 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
+        <link rel="stylesheet" href="/src/main.css">
+        <link rel="stylesheet" href="/src/menu.css">
 
-        <link rel="stylesheet" href="menu.css">
-
-        <script src="/menuAnimation.js"></script>
+        <script src="/src/menuAnimation.js"></script>
     </head>
     <body>
-
-        <!--TEMP CODE: TESTING-->
         <header>
           <button id="menuButton"></button>
         </header>
         
         <nav>
           <ul>
-            <li>Section 1</li>
-            <li>Section 2</li>
-            <li>Section 3</li>
+            <li>About</li>
+            <li>Project</li>
+            <li>Experience</li>
           </ul>
           <div id="nav-close"><i class="fas fa-times"></i></div>
         </nav>
         
         <content>
-          <section>Section 1</section>
-          <section>Section 2</section>
-          <section>Section 3</section>
-        </content>
-        <!--TEMP CODE: END OF TESTING-->
+          <!--Contains about you, what's your interest, what's your education, etc.-->
+          <section id="About">
+              <div class="dummyAbout">
+                <div class="dummyInfo">
+                  <h3>FIRSTNAME LASTNAME</h3>
+                  <p>test dummy</p>
+                </div>
+                <div class="dummyImage">
+                  <img src="" alt="dummy">
+                </div>
+                
+              </div>
+          </section>
+          <!--Contains your projects along with skills used-->
+          <section id="Projects">
 
+          </section>
+          <!--Contains your experience along with skills used.-->
+          <section id="Experience">
+
+          </section>
+        </content>
     </body>
 </html>
