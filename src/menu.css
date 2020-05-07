@@ -61,18 +61,7 @@
   header button.menu:after {
     left: -100%;
   }
-  content section {
-    align-items: center;
-    color: #fff;
-    display: flex;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 1em;
-    height: 100vh;
-    justify-content: center;
-    letter-spacing: 2pt;
-    text-transform: uppercase;
-  }
+  
   nav {
     align-items: center;
     display: flex;
