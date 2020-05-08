@@ -22,7 +22,7 @@ $(document).ready(function() {
   $("nav li").click(function(){
     // get index of clicked li and select according section
     var index = $(this).index();
-    var target = $("content section").eq(index);
+    var target = $("div section").eq(index);
     
     toggleNav();
     
