@@ -82,7 +82,7 @@ div section {
     
 
     margin: 0 auto 0 auto;
-    max-width: 950px;
+    max-width: 100%;
     min-width: 0;
     overflow: hidden;
 }
