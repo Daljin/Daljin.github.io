@@ -19,7 +19,8 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     /* For mobile phones: */
-    .flex-row{flex-direction: column-reverse;}
+    .flex-column-reverse{flex-direction: column-reverse;}
+    .flex-column{flex-direction: column;}
     .aboutBox{
         max-height: 100%;
     }
@@ -35,7 +36,15 @@
         width: 100%;
         height: auto;
     }
+    .displayBox {
+        max-height: 100%;
+    }
+    .displayBox img {
+        width: 100%;
+        height: auto;
+    }
     #name{font-size: 200%;}
+    .title{font-size: 300%;}
     .col-xs-1 {width: 8.33%;}
     .col-xs-2 {width: 16.66%;}
     .col-xs-3 {width: 25%;}
