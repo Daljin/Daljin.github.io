@@ -13,11 +13,14 @@
 @media only screen and (max-width: 600px) {
     /* For mobile phones: */
     .flex-row{flex-direction: column-reverse;}
+    .aboutBox{
+        max-height: 100%;
+    }
     .circularPortrait{
         position: relative;
 
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         overflow: hidden;
         margin-top: 5px;
     }
@@ -45,11 +48,14 @@
 /* For tablets: */
 .flex-row{flex-direction: column-reverse;}
 #name{font-size: 300%;}
+.aboutBox {
+    max-width: 100%;
+    max-height: 100%;
+}
 .circularPortrait{
     display: inline-block;
     position: relative;
-    width: 50%;
-    height: 200px;
+    width: 100%;
     margin: 5px 5px 5px 0;
     overflow: hidden;
     border-radius: 50%;
@@ -99,8 +105,8 @@
     .circularPortrait{
         display: inline-block;
         position: relative;
-        width: 50%;
-        height: 200px;
+        width: 40%;
+        
         margin: 5px 5px 5px 0;
         overflow: hidden;
         border-radius: 50%;
