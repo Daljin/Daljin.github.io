@@ -95,6 +95,15 @@ div section {
     margin: 0 0 10px 0;
 }
 
+#Experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align:center;
+
+}
+
 .headTitle {
     clear: both;
     text-decoration: underline;
@@ -110,10 +119,6 @@ div section {
     align-items: center;
     text-align:center;
 
-}
-
-.cards {
-    flex: 1;
 }
 
 #name {
