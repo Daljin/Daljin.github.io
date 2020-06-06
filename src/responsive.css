@@ -25,7 +25,7 @@
         max-height: 100%;
     }
     .circularPortrait{
-        position: relative;
+        /* position: relative; */
 
         width: 150px;
         height: 150px;
@@ -40,9 +40,11 @@
         max-height: 100%;
     }
     .displayBox img {
+        border-radius: 5px 5px 0 0;
         width: 100%;
         height: auto;
     }
+
     #name{font-size: 200%;}
     .title{font-size: 300%;}
     .col-xs-1 {width: 8.33%;}
